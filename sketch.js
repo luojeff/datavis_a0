@@ -6,7 +6,7 @@ function draw() {
 	background(225);
 	textSize(32);
 	strokeWeight(1);
-	text(('0'+hour()).slice(-2) + ":" + minute() + ":" + ('0'+second()).slice(-2), 50, 50)
+	text(('0'+hour()).slice(-2) + ":" + ('0'+minute()).slice(-2) + ":" + ('0'+second()).slice(-2), 50, 50)
 	stroke(0);
 	textSize(24);
 	text("Connected-dial Analog Clock", 50, 90);
